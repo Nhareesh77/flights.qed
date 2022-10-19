@@ -7,8 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class AppUtills
 {
-	
-	public static WebDriver driver;
+public static WebDriver driver;
 public static void launchApp(String url) 
 {
 
@@ -25,7 +24,6 @@ public static void launchApp(String url)
 				driver.quit();
 			}	
 		
-
 	}
 
 
